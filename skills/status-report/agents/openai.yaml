@@ -1,0 +1,4 @@
+interface:
+  display_name: "Status Report"
+  short_description: "Clear progress reports without vague status words"
+  default_prompt: "Use $status-report to give me a clear progress report with overall, current, immediate, and outside-loop tasks."
