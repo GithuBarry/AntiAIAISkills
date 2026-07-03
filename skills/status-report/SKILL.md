@@ -116,19 +116,6 @@ If a report gives only the active phase name and a few live counts, it is too
 thin for a global status request. The user needs a compact operating picture,
 not just a dashboard tile.
 
-## Weak Vs Useful
-
-A weak report gives a generic phase name, local counts, and a vague next step. It
-may be true, but it does not let the user steer. It hides what has not started,
-what is paused for a real reason, what can be shown publicly, and what would make
-the plan change.
-
-A useful report starts from the full research path and then zooms down. It says
-which stage is active, which future stages are waiting, which evidence is safe to
-show, which evidence must stay internal, and which decision controls the next
-expensive action. It gives enough numbers and reasons that the user does not need
-to ask what a status label means.
-
 ## Zoom Levels
 
 Use deeper zoom sections when the user needs more than one level of context.
@@ -261,9 +248,8 @@ Release checklist:
 Next trigger: release only after a fresh checkout reproduces the main table and
 the handoff names every included and excluded run.
 
-Do not let formatting hide missing content. A beautiful report that omits the
-not-started model slice, unresolved analysis, or release blocker is still a bad
-status report.
+Do not let formatting hide missing content. A polished report that omits the
+not-started model slice, unresolved analysis, or release blocker is still bad.
 
 ## Progress Buckets
 
@@ -289,7 +275,7 @@ the current work is only one piece of a larger experiment.
 - Quantify: counts, denominators, status splits, spend, elapsed time, and
   thresholds beat adjectives.
 - Keep decisions tied to reasons. Say what repeated, what evidence showed it,
-  and what action follows. "Paused for safety" is vague.
+  and what action follows.
 - Avoid compressed labels when they substitute for the operational fact. If a
   phrase would make the user ask "what does that mean for the experiment?", write
   the concrete state instead: what changed, why it matters, whether it can be
@@ -325,13 +311,6 @@ not a term the user already uses, ask: would a human reader know exactly what it
 means here? If not, either define it immediately or delete the label and write
 the underlying fact.
 
-Bad status words are not bad because of the letters in them. They are bad when
-they let the agent avoid saying the hard thing. For example, do not hide behind
-a category when you can say: this run used different instructions, so it cannot
-be compared with the current run; this figure lacks frozen source data, so it
-cannot be public; this trace reached the right file but produced no final answer,
-so it counts as a failed answer, not a partial success.
-
 Some phrases look precise but destroy auditability when left unexplained. Treat
 compressed labels as warning signs. They are acceptable only if the same
 sentence defines the phrase for this report, tells the user what evidence
@@ -346,13 +325,6 @@ not vibes:
 - What evidence created the label?
 - What should the user do differently because of it?
 - What would make the label change?
-
-For example, do not write a release label by itself. Write that the code can be
-shared inside the team because the command runs and the data path is documented,
-but it cannot be public because two figures still lack frozen source tables. Do
-not write a confidence label by itself. Write that uncertainty comes from 4
-unresolved scorer mismatches out of 100 examples; if those resolve cleanly, this
-becomes ready for the next method run.
 
 Prefer verbs and consequences over labels:
 
@@ -373,10 +345,7 @@ Prefer verbs and consequences over labels:
   like global progress.
 - Vague active states such as "continuing", "running", or "paused" without
   count, target, reason, and trigger.
-- Shorthand labels used as substitutes for explanation. Prefer concrete wording:
-  this run is not included because it used earlier instructions and one trace
-  ended with no final answer after repeatedly reading large temporary output
-  files.
+- Shorthand labels used as substitutes for explanation.
 - Empty or filler tables.
 - Chronological change logs when the user needs orientation.
 - Dense private labels without explaining what they are.
