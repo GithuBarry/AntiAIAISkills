@@ -21,10 +21,14 @@ Each folder under `skills/` is a standalone Codex skill.
 
 Some skills in this collection come from public repositories:
 
-- `anti-sycophancy`: Telos Evals, from `Telos-evals/anti-sycophancy`
-- `fresh-eyes-review`: kcholakorn, from `kcholakorn/fresh-eyes-review`
-- `grill-me`: Matt Pocock, from `mattpocock/skills`
-- `writing`: Anbeeld, from `Anbeeld/WRITING.md`
+- `anti-sycophancy`: Telos Evals, from
+  [Telos-evals/anti-sycophancy](https://github.com/Telos-evals/anti-sycophancy)
+- `fresh-eyes-review`: kcholakorn, from
+  [kcholakorn/fresh-eyes-review](https://github.com/kcholakorn/fresh-eyes-review)
+- `grill-me`: Matt Pocock, from
+  [mattpocock/skills](https://github.com/mattpocock/skills)
+- `writing`: Anbeeld, from
+  [Anbeeld/WRITING.md](https://github.com/Anbeeld/WRITING.md)
 
 ## License
 
