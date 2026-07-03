@@ -297,6 +297,29 @@ the current work is only one piece of a larger experiment.
 
 ## Fight Agent Jargon
 
+Run a highlight test before sending. Imagine the user selects 5-10 phrases from
+the draft and asks "what does this mean, why did you not explain it?" Any phrase
+that would require a follow-up explanation should be explained in the report
+itself, at first use.
+
+This applies especially to:
+
+- method changes
+- metric names
+- run identities
+- paused or stopped states
+- future-model readiness
+- public-release readiness
+- cost and budget claims
+- reviewer/subagent counts
+- failure categories
+- fairness or validity claims
+
+A useful explanation has this payload: what the phrase means here, why it
+matters, what evidence supports it, and what action follows. It can be a short
+parenthesis, a clause, or a bullet. It does not need to become a glossary, but it
+must prevent the user from having to interrogate the report line by line.
+
 Before sending, challenge every status noun or adjective you invented. If it is
 not a term the user already uses, ask: would a human reader know exactly what it
 means here? If not, either define it immediately or delete the label and write
@@ -379,3 +402,5 @@ Before sending, ask:
 - Are the most important numbers included?
 - Did I state next action and trigger conditions?
 - Did I avoid claiming completion without proof?
+- If the user highlighted any non-obvious phrase, would the report already
+  explain its meaning, evidence, and consequence?
