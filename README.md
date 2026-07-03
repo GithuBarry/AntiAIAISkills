@@ -17,13 +17,16 @@ Each folder under `skills/` is a standalone Codex skill.
   the whole objective before zooming into live work.
 - `writing`: drafting and revision rules for reader-facing prose.
 
-## Attribution
+## Third-party attribution
 
-See `ATTRIBUTIONS.md`. Third-party skills remain credited to their original
-authors. Skills without a recoverable upstream attribution are credited to
-`@GithuBarry`.
+Some skills in this collection come from public repositories:
+
+- `anti-sycophancy`: Telos Evals, from `Telos-evals/anti-sycophancy`
+- `fresh-eyes-review`: kcholakorn, from `kcholakorn/fresh-eyes-review`
+- `grill-me`: Matt Pocock, from `mattpocock/skills`
+- `writing`: Anbeeld, from `Anbeeld/WRITING.md`
 
 ## License
 
-This repository is MIT licensed. Some included skills are also MIT licensed by
-their original authors. See `ATTRIBUTIONS.md`.
+This repository is MIT licensed. The third-party repositories listed above are
+also reported by GitHub as MIT licensed.
