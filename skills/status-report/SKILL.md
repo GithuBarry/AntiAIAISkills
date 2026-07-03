@@ -112,8 +112,9 @@ include all of these, unless the user explicitly asks for a tiny update:
   run IDs -> verify reproduction commands -> check data cards -> check figures
   -> fresh-reader handoff -> release tag."
 
-If a report gives only the active phase name and a few live counts, it is too thin for a global status request. The user needs a compact operating
-picture, not just a dashboard tile.
+If a report gives only the active phase name and a few live counts, it is too
+thin for a global status request. The user needs a compact operating picture,
+not just a dashboard tile.
 
 ## Weak Vs Useful
 
@@ -225,8 +226,8 @@ Stop/go:
 
 Current: held-out evaluation is 70% complete; newest slice age is 3 hours. The
 remaining 3 slices are already queued and need no human decision yet.
-Public-release status: checkpoint stays
-internal because ablations and leakage appendix are missing.
+Public-release status: checkpoint stays internal because ablations and leakage
+appendix are missing.
 
 **Safety evaluation, release-safety framing**
 
@@ -309,12 +310,10 @@ cannot be public; this trace reached the right file but produced no final answer
 so it counts as a failed answer, not a partial success.
 
 Some phrases look precise but destroy auditability when left unexplained. Treat
-phrases like "diagnostic only", "audit noise", "internal-ready", "public-ready",
-"owner is evaluator", "old handle", "guided condition", "appendix-only",
-"confidence medium", or "pooled set" as warning signs. They are acceptable only
-if the same sentence defines the phrase for this report, tells the user what
-evidence supports it, and states what action follows. Otherwise replace them
-with the fact.
+compressed labels as warning signs. They are acceptable only if the same
+sentence defines the phrase for this report, tells the user what evidence
+supports it, and states what action follows. Otherwise replace them with the
+fact.
 
 Definition comes first. A useful definition gives inclusion and exclusion rules,
 not vibes:
@@ -325,12 +324,12 @@ not vibes:
 - What should the user do differently because of it?
 - What would make the label change?
 
-For example, do not write "internal-ready" by itself. Write: "Can be shared
-inside the team means the command runs and the data path is documented, but it
-cannot be public because two figures still lack frozen source tables." Do not
-write "confidence medium" by itself. Write: "Uncertainty comes from 4 unresolved
-scorer mismatches out of 100 examples; if those resolve cleanly, this becomes
-ready for the next method run."
+For example, do not write a release label by itself. Write that the code can be
+shared inside the team because the command runs and the data path is documented,
+but it cannot be public because two figures still lack frozen source tables. Do
+not write a confidence label by itself. Write that uncertainty comes from 4
+unresolved scorer mismatches out of 100 examples; if those resolve cleanly, this
+becomes ready for the next method run.
 
 Prefer verbs and consequences over labels:
 
@@ -352,9 +351,9 @@ Prefer verbs and consequences over labels:
 - Vague active states such as "continuing", "running", or "paused" without
   count, target, reason, and trigger.
 - Shorthand labels used as substitutes for explanation. Prefer concrete wording:
-  "this run is not included because it used earlier instructions and one trace
+  this run is not included because it used earlier instructions and one trace
   ended with no final answer after repeatedly reading large temporary output
-  files."
+  files.
 - Empty or filler tables.
 - Chronological change logs when the user needs orientation.
 - Dense private labels without explaining what they are.
