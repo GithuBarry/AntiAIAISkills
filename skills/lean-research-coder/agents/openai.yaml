@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lean Research Coder"
+  short_description: "Prefer library-first lean implementation"
+  default_prompt: "Use $lean-research-coder to implement or refactor this work with the smallest clear library-first solution."

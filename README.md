@@ -13,6 +13,10 @@ Each folder under `skills/` is a standalone Codex skill.
 - `fresh-eyes-review`: reads docs like a real human recipient and reports where
   a team would get confused or bounce the handoff back.
 - `grill-me`: interrogates a plan one decision at a time.
+- `lean-research-coder`: implements, reviews, and refactors ML/CS research code
+  with a library-first, lean approach that keeps claims and evidence aligned.
+- `rigorous-research-agent`: guides ML/LLM research so it earns closure through
+  evidence, keeps gaps loud, and resists cosmetic completion.
 - `status-report`: produces evidence-backed progress reports that start from
   the whole objective before zooming into live work.
 - `writing`: drafting and revision rules for reader-facing prose.
